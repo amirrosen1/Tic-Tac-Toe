@@ -1,0 +1,31 @@
+# Tic-Tac-Toe Game
+
+## Overview
+This project is a console-based Tic-Tac-Toe game implemented in Java. It allows for gameplay
+ between human and AI players, including both a simple and an advanced AI. The game is
+  structured into several classes, each managing different aspects of the game, from
+   rendering the board to handling player inputs.
+
+## Features
+- **Human vs AI:** Play against a computer with varying levels of intelligence.
+- **AI Strategies:** Includes a basic clever AI and a more advanced genius AI.
+- **Console Interface:** Play the game via a simple command-line interface.
+
+## Files
+- **PlayerFactory.java:** Factory class for creating player instances (Human or AI).
+- **Board.java:** Represents the game board and handles game logic.
+- **CleverPlayer.java:** Represents an AI player with a simple decision-making strategy.
+- **ConsoleRenderer.java:** Manages the rendering of the game state to the console.
+- **Game.java:** Main class that coordinates game flow and interactions between components.
+- **GeniusPlayer.java:** Represents an AI player with advanced decision-making capabilities.
+- **HumanPlayer.java:** Represents a human player.
+- **KeyboardInput.java:** Handles user input from the keyboard.
+- **Mark.java:** Enum representing the possible marks (X, O, and EMPTY) on the board.
+- **Player.java:** Abstract class defining common behaviors for all player types.
+- **PlayerType.java:** Enum representing the possible player types (HUMAN or AI).
+
+
+## How to Run
+1. **Compile the project:**
+   ```bash
+   javac *.java
